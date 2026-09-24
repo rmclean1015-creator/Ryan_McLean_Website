@@ -17,14 +17,18 @@
 
 
 
-    <img src="1:2 L IMG_3934.jpg" atl="did this work?" width="300" height="500">
+    <!--<img src="1:2 L IMG_3934.jpg" atl="did this work?" width="300" height="500">-->
+
+<div class="image-container">
+  <img src="1:2 L IMG_3934.jpg" atl="did this work?" width="300" height="500">
+</div>
 
 <style>
-  .center-img {
-    display: block;     /* Changes the image from inline to block */
-    margin: 0 auto;     /* Centers it horizontally */
-    max-width: 100%;    /* Ensures it scales down on smaller screens */
-    height: auto;
+  .image-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;     /* Optional: Centers vertically if container has height */
+    height: 300px;           /* Optional: Gives the box a height */
   }
 </style>
 
