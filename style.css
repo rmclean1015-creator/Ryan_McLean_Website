@@ -2,6 +2,19 @@ body{
     background-color: lightblue;
 }
 
+.center-image {
+  display: block;       /* Changes the image from inline to block */
+  margin-left: auto;    /* Automatically calculates equal spacing */
+  margin-right: auto;   
+  max-width: 100%;      /* Ensures it scales down nicely on mobile */
+  height: auto;
+}
+
+
+
+
+
+
 .faq{
     padding: 40px 0;
 }
