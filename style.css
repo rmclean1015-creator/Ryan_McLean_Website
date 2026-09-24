@@ -2,7 +2,7 @@ body{
     background-color: lightblue;
 }
 
-.center-image {
+.image-container {
   display: block;       /* Changes the image from inline to block */
   margin-left: auto;    /* Automatically calculates equal spacing */
   margin-right: auto;   
