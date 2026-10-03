@@ -10,6 +10,50 @@ body{
   height: auto;
 }
 
+/* Center and align the dots horizontally */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Space between the dots */
+  height: 50px; /* Optional height depending on layout */
+}
+
+/* Style the base shapes of the dots */
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #3498db; /* Change this to match your color theme */
+  border-radius: 50%; /* Makes the elements perfectly circular */
+  animation: bounce 1.2s infinite ease-in-out;
+}
+
+/* Stagger the animation timing for the wave effect */
+.dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+/* Define the bouncing and fading movement */
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  40% {
+    transform: translateY(-10px); /* Bounces the dot upward */
+    opacity: 1; /* Brightens the dot at its peak */
+  }
+}
+
+
+
+
+
+
 
 
 
