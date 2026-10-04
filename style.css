@@ -49,6 +49,8 @@ body{
   }
 }
 
+
+/****************************************
 /* Full-screen overlay container */
 #loader-wrapper {
     position: fixed;
@@ -88,8 +90,7 @@ body{
     opacity: 0 !important;
     visibility: hidden;
 }
-
-
+**************************************/
 
 
 
