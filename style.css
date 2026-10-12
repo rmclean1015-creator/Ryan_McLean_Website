@@ -10,6 +10,7 @@ body{
   margin-right: auto;   
   max-width: 100%;      /* Ensures it scales down nicely on mobile */
   height: auto;
+  align-items: center;
 }
 
 /* Center and align the dots horizontally */
