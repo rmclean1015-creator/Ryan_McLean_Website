@@ -13,6 +13,9 @@ body{
   height: auto;
 }
 
+
+
+/******************************************************
 /* Center and align the dots horizontally */
 .loading-container {
   display: flex;
@@ -51,7 +54,7 @@ body{
     opacity: 1; /* Brightens the dot at its peak */
   }
 }
-
+*************************************************/
 
 /****************************************
 /* Full-screen overlay container */
@@ -99,7 +102,7 @@ body{
 
 
 
-
+/********************************
 
 .faq{
     padding: 40px 0;
@@ -147,3 +150,4 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
+*************************************/
