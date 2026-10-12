@@ -15,7 +15,7 @@ body{
 
 
 
-/******************************************************
+
 /* Center and align the dots horizontally */
 .loading-container {
   display: flex;
@@ -54,7 +54,6 @@ body{
     opacity: 1; /* Brightens the dot at its peak */
   }
 }
-*************************************************/
 
 /****************************************
 /* Full-screen overlay container */
