@@ -5,6 +5,7 @@ body{
 }
 
 .image-container {
+  text-align: center;
   display: block;       /* Changes the image from inline to block */
   margin-left: auto;    /* Automatically calculates equal spacing */
   margin-right: auto;   
