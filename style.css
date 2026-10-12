@@ -6,11 +6,13 @@ body{
 
 .image-container {
   text-align: center;
+/*
   display: block;       /* Changes the image from inline to block */
   margin-left: auto;    /* Automatically calculates equal spacing */
   margin-right: auto;   
   max-width: 100%;      /* Ensures it scales down nicely on mobile */
   height: auto;
+*/
 }
 
 
